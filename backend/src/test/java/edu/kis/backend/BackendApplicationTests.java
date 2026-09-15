@@ -1,10 +1,10 @@
-package edu.kis.hello;
+package edu.kis.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootHelloApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {
