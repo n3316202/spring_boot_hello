@@ -8,6 +8,9 @@ function App() {
   useEffect(() => {
     fetch('/')
       .then((response) => {
+        
+        console.log(response)
+
         if (!response.ok) {
           throw new Error('API 호출 실패')
         }
