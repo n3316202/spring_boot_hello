@@ -6,10 +6,12 @@ function App() {
   const [error, setError] = useState('')
 
   useEffect(() => {
+    
+    console.log("fetch 시작")
+
     fetch('/')
       .then((response) => {
-        
-        console.log(response)
+
 
         if (!response.ok) {
           throw new Error('API 호출 실패')
